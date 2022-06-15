@@ -1,27 +1,47 @@
-// 全体の幅高さ
-#oomoto {
-    height: 11290px;
-    width: 2000px;
-    left: 26px;
-    top: 0px;
-    border-radius: 0px;
-}
-
+// Livers Wall
+// ヘッダー&kv
 // ヘッダー
 .header {
-    ul {
-        display: flex;
-        justify-content: flex-end;
-    }
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
 
-    li {
-        padding: 10px 20px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 63px;
-        color: #000000;
-    }
+  li {
+    padding: 10px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 63px;
+    color: #000000;
+  }
 }
 
-// Livers Wall
+// kv
+#wall{
+  // height: 100vh;
+  // width: 100%;
+  // background-image: url(./img/kv_pc.png);
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  ul{
+    display: flex;
+    
+  }
+}
+// #kv {
+//   position: relative;
+// }
+
+// .kv1 {
+//   position: absolute;
+//   left: 81px;
+//   top: 120px;
+// }
+
+// .kv2 {
+//   position: absolute;
+//   left: 81px;
+//   top: 358px;
+// }
