@@ -1,4 +1,22 @@
+#oomoto {
+  height: 11290px;
+  width: 2000px;
+  left: 26px;
+  top: 0px;
+  border-radius: 0px;
+}
+
 .header ul {
   display: flex;
+  justify-content: flex-end;
+}
+
+.header li {
+  padding: 10px 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43.172px;
+  line-height: 63px;
+  color: #000000;
 }
 /*# sourceMappingURL=yukinori.css.map */
