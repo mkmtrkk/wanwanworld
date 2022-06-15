@@ -1,5 +1,17 @@
-h1, h2 {
+h1 {
   text-align: center;
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 95px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Source Han Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116px;
 }
 
 footer {
