@@ -1,5 +1,25 @@
-.header{
-    ul{
+// 全体の幅高さ
+#oomoto {
+    height: 11290px;
+    width: 2000px;
+    left: 26px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+// ヘッダー
+.header {
+    ul {
         display: flex;
+        justify-content: flex-end;
+    }
+
+    li {
+        padding: 10px 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 63px;
+        color: #000000;
     }
 }
