@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=rika.css.map */
+h1, h2 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: 1.43px solid #000000;
+  padding: 30px;
+}
+/*# sourceMappingURL=rika.css.map */

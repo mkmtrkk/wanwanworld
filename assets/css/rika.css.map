@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,EAAE,EAIF,EAAE,CAJA;EACE,UAAU,EAAE,MAAM;CACrB;;AAQD,AAAA,MAAM,CAAA;EACF,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,KAAK;EACvB,MAAM,EAAE,oBAAoB;EAC5B,OAAO,EAAE,IAAI;CAChB",
     "sources": [
         "../../rika.scss"
     ],

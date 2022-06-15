@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    @extend h1
+}
+
+
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 1.43px solid #000000;
+    padding: 30px;
+}
