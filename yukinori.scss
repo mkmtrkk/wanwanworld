@@ -148,12 +148,13 @@
   // }
 }
 
+
 // Contact
 .contact-all{
   width: 1170px;
   margin: 0 auto;
   display: flex;
-  // justify-content: space-between;
+  justify-content: space-around;
 }
 
 .contact-left{
@@ -182,6 +183,17 @@
   }
 }
 
+.contact-right{
+  width: 50%;
+
+  picture{
+    display: flex;
+    align-items: center;
+    margin: 100px 0;
+    // margin-left: auto;
+    width: 70%;
+  }
+}
 
 
 // Company

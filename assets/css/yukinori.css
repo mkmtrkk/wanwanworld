@@ -115,6 +115,7 @@
   width: 1170px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-around;
 }
 
 .contact-left {
@@ -142,6 +143,17 @@
   padding: 20px;
   color: white;
   text-align: center;
+}
+
+.contact-right {
+  width: 50%;
+}
+
+.contact-right picture {
+  display: flex;
+  align-items: center;
+  margin: 100px 0;
+  width: 70%;
 }
 
 .company-all {
