@@ -1,0 +1,45 @@
+/* Livers Wallの画像 */
+#wall {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/kv_pc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kv1 {
+    background-image: url(./img/kv03.jpg);
+    width: 460px;
+    height: 224px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kv2 {
+    background-image: url(./img/kv_02_pc.jpg);
+    width: 460px;
+    height: 638px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kv3 {
+    background-image: url(./img/kv01.jpg);
+    width: 460px;
+    height: 638px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kv4{
+    background-image: url(./img/kv_04.jpg);
+    width: 460px;
+    height: 224px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

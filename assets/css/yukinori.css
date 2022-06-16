@@ -12,7 +12,43 @@
   color: #000000;
 }
 
-#wall ul {
+#wall .kv-wall {
   display: flex;
+  justify-content: space-between;
+}
+
+#wall .kv-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#wall .kv-text1 {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 69px;
+  color: #000000;
+}
+
+#wall .kv-title {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 148px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+#wall .kv-text2 {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 57px;
+  letter-spacing: -0.03em;
+  color: #000000;
 }
 /*# sourceMappingURL=yukinori.css.map */
