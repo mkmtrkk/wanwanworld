@@ -51,4 +51,18 @@
   letter-spacing: -0.03em;
   color: #000000;
 }
+
+section #livers {
+  margin-top: 80px;
+}
+
+.pet-livers {
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+}
+
+.pet-livers ul {
+  display: flex;
+}
 /*# sourceMappingURL=yukinori.css.map */
