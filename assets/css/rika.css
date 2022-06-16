@@ -11,6 +11,7 @@ h2 {
   font-family: 'Source Han Sans JP';
   font-style: normal;
   font-weight: 700;
+  font-size: 50px;
   line-height: 116px;
 }
 
@@ -21,6 +22,7 @@ h2 {
 
 .about_coment {
   display: flex;
+  justify-content: space-between;
 }
 
 .about_title {
@@ -36,11 +38,21 @@ h2 {
   font-family: 'ABeeZee';
   font-style: normal;
   line-height: 47px;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
-.about_income {
-  justify-content: space-between;
+.sponser_containar {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.sponser_containar p {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 47px;
 }
 
 footer {

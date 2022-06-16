@@ -12,19 +12,20 @@ h2{
     font-family: 'Source Han Sans JP';
     font-style: normal;
     font-weight: 700;
-    // font-size: 80px;
+    font-size: 50px;
     line-height: 116px;
 
 }
 
-
+// ------about------
 .about_box1,
 .about_box2{
     margin: 0 200px;
 }
 .about_coment{
     display: flex;
-    
+    justify-content: space-between;
+
     
    
 }
@@ -44,22 +45,33 @@ h2{
     // font-weight: 400;
     // font-size: 40px;
     line-height: 47px;
-    justify-content: space-between;
+    flex-direction: column;
+
+}    
+
+//------Sponser-----
+.sponser_containar{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    img{
+        // height: 100px;
+        // width: 200px;
+    }
+
+    p{
+        font-family: 'ABeeZee';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 47px;
+    }
 }
 
 
 
-
-
-
-.about_income{
-    justify-content: space-between;
-}
-
-
-
-
-
+// -----footer-----
 footer{
     text-align: center;
     color: white;
