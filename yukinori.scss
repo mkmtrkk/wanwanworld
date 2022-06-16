@@ -19,6 +19,10 @@
 
 // kv
 #wall {
+  img {
+    position: absolute;
+  }
+
   .kv-wall {
     display: flex;
     justify-content: space-between;
@@ -67,14 +71,21 @@ section {
   }
 }
 
-.pet-livers {
+.livers-backcolor {
   background-color: #000000;
   height: 100vh;
   width: 100%;
+}
+
+.pet-livers {
+  // background-color: #000000;
+  height: 100vh;
+  width: 1170px;
+  margin: 0 auto;
   // width: 2000px;
   // height: 1350px;
 
-  ul{
+  ul {
     display: flex;
   }
 }
