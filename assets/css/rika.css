@@ -9,7 +9,7 @@ h1 {
 
 h2 {
   text-align: center;
-  font-family: 'Source Han Sans JP';
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -21,18 +21,17 @@ h2 {
   margin: 0 auto;
 }
 
-.about-container .about-text {
+.about-container .about-box1, .about-container .about-box2 {
+  margin-bottom: 20px;
+}
+
+.about-container .about-box1 .about-text, .about-container .about-box2 .about-text {
   display: flex;
   align-items: center;
-  padding: 0 60px;
+  justify-content: center;
 }
 
-.about-container .about-text .about-coment {
-  justify-content: space-between;
-  margin: 0 100px;
-}
-
-.about-container .about-text .about-coment .about-title {
+.about-container .about-box1 .about-text .about-coment .about-title, .about-container .about-box2 .about-text .about-coment .about-title {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 500;
@@ -41,16 +40,17 @@ h2 {
   flex-flow: column;
 }
 
-.about-container .about-text .about-coment .about-income {
+.about-container .about-box1 .about-text .about-coment .about-income, .about-container .about-box2 .about-text .about-coment .about-income {
   font-family: 'ABeeZee';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 20px;
   line-height: 47px;
   flex-direction: column;
+  line-height: 1.2em;
 }
 
-.about-container .about-text .about-img {
+.about-container .about-box1 .about-text .about-img, .about-container .about-box2 .about-text .about-img {
   width: 500px;
   height: 420px;
 }
@@ -88,13 +88,13 @@ h2 {
   border: 2px solid #9067E9;
   width: 30%;
   margin-left: auto;
+  padding: 30px;
 }
 
 .servce-container .servce-text1 {
   font-family: 'ABeeZee';
   font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 38px;
   letter-spacing: -0.03em;
 }
@@ -103,7 +103,7 @@ h2 {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 15px;
   line-height: 26px;
   letter-spacing: -0.03em;
 }
