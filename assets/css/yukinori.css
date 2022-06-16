@@ -64,28 +64,50 @@
   background-color: #000000;
   height: 1000px;
   width: 100%;
+  border: solid 1px white;
 }
 
 .pet-livers {
   height: 100vh;
   width: 1170px;
   margin: 0 auto;
+  position: relative;
 }
 
 .pet-livers .pet {
   background-color: white;
   width: 24%;
-  height: 50vh;
-  margin-right: 5px;
+  height: 55vh;
 }
 
 .pet-livers ul {
+  margin: 100px 0;
   display: flex;
-  padding-top: 50px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 15px;
 }
 
-.pet-livers picture {
-  background-color: white;
-  padding: 10px 5px 100px;
+.pet-livers img {
+  margin: 20px 5px 0;
+  width: 95%;
+  height: 60%;
+}
+
+.pet-livers .livers-content {
+  margin: 10px 20px;
+}
+
+.pet-livers .liver-title {
+  font-size: 14px;
+}
+
+.pet-livers h3 {
+  font-size: 25px;
+  padding: 5px 0;
+}
+
+.pet-livers .liver-text {
+  font-size: 14px;
 }
 /*# sourceMappingURL=yukinori.css.map */
