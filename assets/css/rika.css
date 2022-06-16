@@ -5,6 +5,7 @@ h1 {
   font-weight: 400;
   font-size: 50px;
   line-height: 95px;
+  margin: 0 0 20px;
 }
 
 h2 {
@@ -14,6 +15,7 @@ h2 {
   font-weight: 700;
   font-size: 50px;
   line-height: 116px;
+  margin: 0 0 20px;
 }
 
 .about-container {
@@ -105,6 +107,42 @@ h2 {
   font-weight: 400;
   font-size: 15px;
   line-height: 26px;
+  letter-spacing: -0.03em;
+}
+
+.boi {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.voice-text {
+  margin: 0 20px 0 100px;
+}
+
+.voice-come1 {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 38px;
+}
+
+.voice-come2 {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 59px;
+}
+
+.voice-come3 {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 43px;
   letter-spacing: -0.03em;
 }
 
