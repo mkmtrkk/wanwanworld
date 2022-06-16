@@ -18,37 +18,48 @@ h2 {
 }
 
 // ------about------
-.about-box1,
-.about-box2 {
-    margin: 0 200px;
+
+.about-container{
+    width: 1170px;
+    margin: 0 auto;
+
+    .about-text{
+        display: flex;
+        align-items: center;
+        padding: 0 60px;
+
+        .about-coment {
+            justify-content: space-between;
+            margin: 0 50px;
+        }
+        .about-img{
+            width: 500px;
+            height: 420px;
+        }
+    }
+
+    .about-title {
+        font-family: 'ABeeZee';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 59px;
+        flex-flow: column;
+    }
+    
+    .about-income {
+        font-family: 'ABeeZee';
+        font-style: normal;
+        // font-weight: 400;
+        // font-size: 40px;
+        line-height: 47px;
+        flex-direction: column;
+    
+    }
+
 }
 
-.about-coment {
-    display: flex;
-    justify-content: space-between;
 
-
-
-}
-
-.about-title {
-    font-family: 'ABeeZee';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 59px;
-    flex-flow: column;
-}
-
-.about-income {
-    font-family: 'ABeeZee';
-    font-style: normal;
-    // font-weight: 400;
-    // font-size: 40px;
-    line-height: 47px;
-    flex-direction: column;
-
-}
 
 //------Sponser-----
 .sponser-containar {
@@ -57,11 +68,6 @@ h2 {
     text-align: center;
     display: flex;
     flex-direction: column;
-
-    img {
-        // height: 100px;
-        // width: 200px;
-    }
 
     .kaeru {
         width: 500px;

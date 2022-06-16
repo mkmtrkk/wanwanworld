@@ -16,26 +16,37 @@ h2 {
   line-height: 116px;
 }
 
-.about-box1,
-.about-box2 {
-  margin: 0 200px;
+.about-container {
+  width: 1170px;
+  margin: 0 auto;
 }
 
-.about-coment {
+.about-container .about-text {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
 }
 
-.about-title {
+.about-container .about-text .about-coment {
+  justify-content: space-between;
+  margin: 0 50px;
+}
+
+.about-container .about-text .about-img {
+  width: 500px;
+  height: 420px;
+}
+
+.about-container .about-title {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 30px;
   line-height: 59px;
   flex-flow: column;
 }
 
-.about-income {
+.about-container .about-income {
   font-family: 'ABeeZee';
   font-style: normal;
   line-height: 47px;
