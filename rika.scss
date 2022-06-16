@@ -18,11 +18,11 @@ h2{
 }
 
 // ------about------
-.about_box1,
-.about_box2{
+.about-box1,
+.about-box2{
     margin: 0 200px;
 }
-.about_coment{
+.about-coment{
     display: flex;
     justify-content: space-between;
 
@@ -30,7 +30,7 @@ h2{
    
 }
 
-.about_title{
+.about-title{
     font-family: 'ABeeZee';
     font-style: normal;
     font-weight: 400;
@@ -39,7 +39,7 @@ h2{
     flex-flow: column;
 }
 
-.about_income{
+.about-income{
     font-family: 'ABeeZee';
     font-style: normal;
     // font-weight: 400;
@@ -50,7 +50,7 @@ h2{
 }    
 
 //------Sponser-----
-.sponser_containar{
+.sponser-containar{
     text-align: center;
     display: flex;
     flex-direction: column;

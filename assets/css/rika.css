@@ -16,17 +16,17 @@ h2 {
   line-height: 116px;
 }
 
-.about_box1,
-.about_box2 {
+.about-box1,
+.about-box2 {
   margin: 0 200px;
 }
 
-.about_coment {
+.about-coment {
   display: flex;
   justify-content: space-between;
 }
 
-.about_title {
+.about-title {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 400;
@@ -35,20 +35,20 @@ h2 {
   flex-flow: column;
 }
 
-.about_income {
+.about-income {
   font-family: 'ABeeZee';
   font-style: normal;
   line-height: 47px;
   flex-direction: column;
 }
 
-.sponser_containar {
+.sponser-containar {
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
-.sponser_containar p {
+.sponser-containar p {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 400;
