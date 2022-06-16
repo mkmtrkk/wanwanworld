@@ -30,7 +30,26 @@ h2 {
 
         .about-coment {
             justify-content: space-between;
-            margin: 0 50px;
+            margin: 0 100px;
+
+            .about-title {
+                font-family: 'ABeeZee';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 59px;
+                flex-flow: column;
+            }
+            
+            .about-income {
+                font-family:'ABeeZee';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 47px;
+                flex-direction: column;
+            
+            }
         }
         .about-img{
             width: 500px;
@@ -38,24 +57,7 @@ h2 {
         }
     }
 
-    .about-title {
-        font-family: 'ABeeZee';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 59px;
-        flex-flow: column;
-    }
     
-    .about-income {
-        font-family: 'ABeeZee';
-        font-style: normal;
-        // font-weight: 400;
-        // font-size: 40px;
-        line-height: 47px;
-        flex-direction: column;
-    
-    }
 
 }
 

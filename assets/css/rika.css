@@ -29,28 +29,30 @@ h2 {
 
 .about-container .about-text .about-coment {
   justify-content: space-between;
-  margin: 0 50px;
+  margin: 0 100px;
 }
 
-.about-container .about-text .about-img {
-  width: 500px;
-  height: 420px;
-}
-
-.about-container .about-title {
+.about-container .about-text .about-coment .about-title {
   font-family: 'ABeeZee';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 30px;
   line-height: 59px;
   flex-flow: column;
 }
 
-.about-container .about-income {
+.about-container .about-text .about-coment .about-income {
   font-family: 'ABeeZee';
   font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 47px;
   flex-direction: column;
+}
+
+.about-container .about-text .about-img {
+  width: 500px;
+  height: 420px;
 }
 
 .sponser-containar {
