@@ -18,6 +18,47 @@ h2{
 }
 
 
+.about_box1,
+.about_box2{
+    margin: 0 200px;
+}
+.about_coment{
+    display: flex;
+    
+    
+   
+}
+
+.about_title{
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    flex-flow: column;
+}
+
+.about_income{
+    font-family: 'ABeeZee';
+    font-style: normal;
+    // font-weight: 400;
+    // font-size: 40px;
+    line-height: 47px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.about_income{
+    justify-content: space-between;
+}
+
+
+
+
 
 footer{
     text-align: center;
