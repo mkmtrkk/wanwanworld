@@ -65,15 +65,13 @@
 }
 
 // petlivers
-section {
   #livers {
     margin-top: 80px;
   }
-}
 
 .livers-backcolor {
   background-color: #000000;
-  height: 100vh;
+  height: 1000px;
   width: 100%;
 }
 
@@ -85,7 +83,20 @@ section {
   // width: 2000px;
   // height: 1350px;
 
+  .pet{
+    background-color: white;
+    width: 24%;
+    height: 50vh;
+    margin-right: 5px;
+  }
+
   ul {
     display: flex;
+    // justify-content: center;
+    padding-top: 50px;
+  }
+  picture{
+    background-color: white;
+    padding: 10px 5px 100px;
   }
 }
