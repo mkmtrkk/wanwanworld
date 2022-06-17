@@ -157,10 +157,14 @@ h2 {
 
 .servce-container {
   border: 2px solid #9067E9;
-  width: 30%;
+  width: 31.5%;
   margin-left: auto;
   padding: 50px 30px;
   box-shadow: 12px 12px 2px 1px #9067E9;
+}
+
+.servce-container .servce-box1 {
+  margin: 0 0 0 10px;
 }
 
 .servce-container .servce-pic {
@@ -171,19 +175,20 @@ h2 {
 .servce-container .servce-text1 {
   font-family: 'ABeeZee';
   font-style: normal;
-  font-size: 25px;
+  font-size: 23px;
   line-height: 38px;
   letter-spacing: -0.03em;
+  margin-left: 10px;
 }
 
 .servce-container .servce-text2 {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 200;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 26px;
   letter-spacing: -0.03em;
-  margin: 0 0 40px;
+  margin: 0 0 40px 10px;
   line-height: 1.2em;
 }
 
