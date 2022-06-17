@@ -178,35 +178,63 @@ h2 {
 
 .servce-container {
     border: 2px solid #9067E9; //
-    width: 30%;
+    width: 31.5%;
     margin-left: auto;
     padding: 50px 30px;
     box-shadow: 12px 12px 2px 1px #9067E9;
 
-    .servce-pic{
-        width: 120px;
-        margin: 10px;
+    .servce-box1{
+        margin: 0 0 0 10px;
     }
-    
-    .servce-text1 {
-        font-family: 'ABeeZee';
-        font-style: normal;
-        // font-weight: 400;
-        font-size: 25px;
-        line-height: 38px;
-        letter-spacing: -0.03em;
+    .servce-box2{
+        margin-bottom: ;
     }
+    .servce-box3{
+        margin-bottom: ;
+    }
+    .servce-box4{
+        margin-bottom: ;
+    }
+    .servce-box5{
+        margin-bottom: ;
+    }
+    .servce-box6{
+        margin-bottom: ;
+    }
+    .servce-box7{
+        margin-bottom: ;
+    }
+    .servce-box8{
+        margin-bottom: ;
+    }
+    .servce-box9{
+        margin-bottom: ;
+    }
+        .servce-pic{
+            width: 120px;
+            margin: 10px;
+        }
+        
+        .servce-text1 {
+            font-family: 'ABeeZee';
+            font-style: normal;
+            // font-weight: 400;
+            font-size: 23px;
+            line-height: 38px;
+            letter-spacing: -0.03em;
+            margin-left: 10px;
+        }
 
-    .servce-text2 {
-        font-family: 'ABeeZee';
-        font-style: normal;
-        font-weight: 200;
-        font-size: 17px;
-        line-height: 26px;
-        letter-spacing: -0.03em;
-        margin: 0 0 40px;
-        line-height: 1.2em;
-    }
+        .servce-text2 {
+            font-family: 'ABeeZee';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: -0.03em;
+            margin: 0 0 40px 10px;
+            line-height: 1.2em;
+        }
 
 }
 
