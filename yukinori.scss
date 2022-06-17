@@ -11,7 +11,7 @@
     padding: 10px 20px;
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 31px;
     line-height: 63px;
     color: #000000;
   }
@@ -26,6 +26,7 @@
   .kv-wall {
     display: flex;
     justify-content: space-between;
+
   }
 
   .kv-text {
@@ -64,9 +65,23 @@
   }
 }
 
+.left-wall {
+  p {
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+}
+
+.right-wall{
+  p{
+    margin-bottom: 10px;
+    margin-right: 30px;
+  }
+}
+
 // petlivers
 #livers {
-  margin: 50px 0 30px;
+  margin: 50px 0 20px;
 }
 
 .livers-backcolor {
@@ -148,32 +163,34 @@
   // }
 }
 
+
 // Contact
-.contact-all{
+.contact-all {
   width: 1170px;
   margin: 0 auto;
   display: flex;
-  // justify-content: space-between;
+  justify-content: space-around;
 }
 
-.contact-left{
+.contact-left {
   width: 50%;
-  form{
+
+  form {
     display: flex;
     flex-direction: column;
   }
 
-  input{
+  input {
     border: solid 1px black;
     width: 80%;
   }
 
-  textarea{
+  textarea {
     border: solid 1px black;
     width: 80%;
   }
 
-  button{
+  button {
     background-color: #000000;
     width: 80%;
     padding: 20px;
@@ -182,6 +199,23 @@
   }
 }
 
+.line {
+  margin: 0 1rem;
+  width: 2px;
+  background-color: #000;
+}
+
+.contact-right {
+  width: 50%;
+
+  picture {
+    display: flex;
+    align-items: center;
+    margin: 100px 0;
+    // margin-left: auto;
+    width: 70%;
+  }
+}
 
 
 // Company
@@ -200,11 +234,11 @@
     font-size: 60px;
   }
 
-  .company-title{
+  .company-title {
     font-size: 30px;
   }
 
-  .company-text{
+  .company-text {
     font-size: 20px;
   }
 }
