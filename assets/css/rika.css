@@ -129,6 +129,10 @@ h2 {
   flex-direction: column;
 }
 
+.sponser-containar .logo {
+  margin: 0 auto;
+}
+
 .sponser-containar .kaeru {
   width: 500px;
   height: 420px;
