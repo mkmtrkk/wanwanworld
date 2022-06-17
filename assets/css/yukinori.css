@@ -165,6 +165,7 @@
 
 .contact-left u {
   background: linear-gradient(transparent 80%, #FFFF00 0%);
+  padding: 0 10px;
 }
 
 .contact-left input {
@@ -204,6 +205,7 @@
 
 .contact-right u {
   background: linear-gradient(transparent 80%, #039c00 0%);
+  padding: 0 10px;
 }
 
 .company-all {

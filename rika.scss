@@ -20,24 +20,44 @@ h2 {
 }
 
 // ------about------
+// 追加しましたyuki
+#about-section {
+    position: relative;
+
+    .about-background {
+        position: absolute;
+    }
+
+    .back2 {
+        top: 150px;
+        right: 0;
+    }
+
+    .back3 {
+        top: 400px;
+        left: 0;
+    }
+
+    .back4{
+        top: 250px;
+        right: 0;
+    }
+
+    .back5{
+        top: 800px;
+        left: 30px;
+    }
+
+    .back6{
+        top: 800px;
+        right: 100px;
+    }
+}
 
 .about-container {
     width: 1170px;
     margin: 0 auto;
 
-    // <<<<<<< HEAD
-    // .about-text{
-    //     display: flex;
-    //     align-items: center;
-    //     padding: 0 60px;
-
-    //     .about-coment {
-    //         // justify-content: space-between;
-    //         margin: 0 50px;
-    //     }
-    //     .about-img{
-    //         width: 500px;
-    //         height: 420px;
     .about-box1,
     .about-box2 {
         margin-bottom: 20px;
@@ -76,12 +96,14 @@ h2 {
                     line-height: 1.2em;
                     // margin-left: 40px;
                 }
+
                 // 追加しましたyuki
-                .location-about{
+                .location-about {
                     margin-left: 70px;
                 }
+
                 // 追加しましたyuki
-                .location-customer{
+                .location-customer {
                     margin-right: 70px;
                 }
             }
