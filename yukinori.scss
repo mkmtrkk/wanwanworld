@@ -259,7 +259,9 @@
   width: 1170px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   // align-items: center;
+  margin-bottom: 200px;
 }
 
 .company-left {
@@ -268,13 +270,15 @@
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
+    margin-bottom: 10px;
   }
 
   .company-title {
     font-size: 30px;
+    margin-bottom: 10px;
   }
 
   .company-text {
-    font-size: 20px;
+    font-size: 25px;
   }
 }

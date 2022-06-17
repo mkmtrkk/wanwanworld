@@ -210,6 +210,8 @@
   width: 1170px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
 }
 
 .company-left h4 {
@@ -217,13 +219,15 @@
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
+  margin-bottom: 10px;
 }
 
 .company-left .company-title {
   font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .company-left .company-text {
-  font-size: 20px;
+  font-size: 25px;
 }
 /*# sourceMappingURL=yukinori.css.map */

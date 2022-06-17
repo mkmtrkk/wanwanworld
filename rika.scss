@@ -21,11 +21,11 @@ h2 {
 
 // ------about------
 
-.about-container{
+.about-container {
     width: 1170px;
     margin: 0 auto;
 
-// <<<<<<< HEAD
+    // <<<<<<< HEAD
     // .about-text{
     //     display: flex;
     //     align-items: center;
@@ -38,10 +38,11 @@ h2 {
     //     .about-img{
     //         width: 500px;
     //         height: 420px;
-    .about-box1,.about-box2{
+    .about-box1,
+    .about-box2 {
         margin-bottom: 20px;
-    
-        .about-text{
+
+        .about-text {
             display: flex;
             align-items: center;
             // padding: 0 60px;
@@ -51,7 +52,7 @@ h2 {
             .about-coment {
                 // justify-content: space-between;
                 // margin: 0 100px;
-                
+
 
                 .about-title {
                     font-family: 'ABeeZee';
@@ -61,9 +62,9 @@ h2 {
                     line-height: 59px;
                     flex-flow: column;
                 }
-                
+
                 .about-income {
-                    font-family:'ABeeZee';
+                    font-family: 'ABeeZee';
                     font-style: normal;
                     font-weight: 200;
                     font-size: 20px;
@@ -71,17 +72,18 @@ h2 {
                     flex-direction: column;
                     // letter-spacing: -0.1em;
                     line-height: 1.2em;
-                    
-                
+
+
                 }
             }
-            .about-img{
+
+            .about-img {
                 width: 400px;
                 height: 320px;
             }
         }
     }
-    
+
 
 }
 
@@ -113,18 +115,20 @@ h2 {
 
 //-----Servce-----
 
-.ser{
+.ser {
     display: flex;
     width: 1170px;
     margin: 0 auto;
 }
-.servce-container{
+
+.servce-container {
     border: 2px solid #9067E9; //
     width: 30%;
     margin-left: auto;
     padding: 30px;
-    
-    .servce-text1{
+    box-shadow: 12px 12px 2px 1px #9067E9;
+
+    .servce-text1 {
         font-family: 'ABeeZee';
         font-style: normal;
         // font-weight: 400;
@@ -132,7 +136,8 @@ h2 {
         line-height: 38px;
         letter-spacing: -0.03em;
     }
-    .servce-text2{
+
+    .servce-text2 {
         font-family: 'ABeeZee';
         font-style: normal;
         font-weight: 200;
@@ -147,7 +152,7 @@ h2 {
 
 
 // ----- Customer Voice -----
-.boi{
+.boi {
     display: flex;
     width: 1170px;
     margin: 0 auto;
@@ -155,12 +160,12 @@ h2 {
     align-items: center;
 }
 
-.voice{
-    &-text{
+.voice {
+    &-text {
         margin: 0 20px 0 100px;
     }
 
-    &-come1{
+    &-come1 {
         font-family: 'ABeeZee';
         font-style: normal;
         font-weight: 400;
@@ -168,7 +173,8 @@ h2 {
         line-height: 38px;
 
     }
-    &-come2{
+
+    &-come2 {
         font-family: 'ABeeZee';
         font-style: normal;
         font-weight: 400;
@@ -176,7 +182,8 @@ h2 {
         line-height: 59px;
 
     }
-    &-come3{
+
+    &-come3 {
         font-family: 'ABeeZee';
         font-style: normal;
         font-weight: 400;
