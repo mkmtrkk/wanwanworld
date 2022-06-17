@@ -61,25 +61,33 @@ h2 {
                     font-size: 30px;
                     line-height: 59px;
                     flex-flow: column;
+                    // margin-left: 40px;
                 }
 
                 .about-income {
                     font-family: 'ABeeZee';
                     font-style: normal;
                     font-weight: 200;
-                    font-size: 20px;
+                    font-size: 25px;
                     line-height: 47px;
                     flex-direction: column;
                     // letter-spacing: -0.1em;
                     line-height: 1.2em;
-
-
+                    // margin-left: 40px;
+                }
+                // 追加しましたyuki
+                .location-about{
+                    margin-left: 70px;
+                }
+                // 追加しましたyuki
+                .location-customer{
+                    margin-right: 70px;
                 }
             }
 
             .about-img {
                 width: 320px;
-                height: 400px;
+                height: 430px;
             }
         }
     }

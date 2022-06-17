@@ -50,16 +50,26 @@ h2 {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 47px;
   flex-direction: column;
   line-height: 1.2em;
 }
 
+.about-container .about-box1 .about-text .about-coment .location-about,
+.about-container .about-box2 .about-text .about-coment .location-about {
+  margin-left: 70px;
+}
+
+.about-container .about-box1 .about-text .about-coment .location-customer,
+.about-container .about-box2 .about-text .about-coment .location-customer {
+  margin-right: 70px;
+}
+
 .about-container .about-box1 .about-text .about-img,
 .about-container .about-box2 .about-text .about-img {
   width: 320px;
-  height: 400px;
+  height: 430px;
 }
 
 .sponser-containar {
