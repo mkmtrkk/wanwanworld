@@ -35,7 +35,7 @@
     background-size: cover;
 }
 
-.kv4{
+.kv4 {
     background-image: url(./img/kv_04.jpg);
     width: 360px;
     height: 224px;
@@ -45,15 +45,40 @@
 }
 
 /*アニメーション要素のスタイル*/
-.animation{
-	opacity : 0;
-	visibility: hidden;
-	transition: 1s;
-	transform: translateY(30px);
+.animation {
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    transform: translateY(30px);
 }
+
 /*アニメーション要素までスクロールした時のスタイル*/
-.active{
-	opacity: 1;
-	visibility: visible;
-	transform: translateY(0);
+.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* 右からででくるアニメーション */
+.fadeIn_right {
+    opacity: 0;
+    transform: translate(50%, 0);
+    transition: 2s;
+}
+
+.fadeIn_right.is-show {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+/* 左から出てくるアニメーション */
+.fadeIn_left {
+    opacity: 0;
+    transform: translate(-50%, 0);
+    transition: 2s;
+}
+
+.fadeIn_left.is-show {
+    transform: translate(0, 0);
+    opacity: 1;
 }

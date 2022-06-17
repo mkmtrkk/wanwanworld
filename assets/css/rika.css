@@ -18,22 +18,59 @@ h2 {
   margin: 50px 0 20px;
 }
 
+#about-section {
+  position: relative;
+}
+
+#about-section .about-background {
+  position: absolute;
+  z-index: 1;
+}
+
+#about-section .back2 {
+  top: 150px;
+  right: 0;
+}
+
+#about-section .back3 {
+  top: 400px;
+  left: 0;
+}
+
+#about-section .back4 {
+  top: 250px;
+  right: 0;
+}
+
+#about-section .back5 {
+  top: 800px;
+  left: 30px;
+}
+
+#about-section .back6 {
+  top: 800px;
+  right: 100px;
+}
+
 .about-container {
   width: 1170px;
   margin: 0 auto;
 }
 
-.about-container .about-box1, .about-container .about-box2 {
+.about-container .about-box1,
+.about-container .about-box2 {
   margin-bottom: 20px;
 }
 
-.about-container .about-box1 .about-text, .about-container .about-box2 .about-text {
+.about-container .about-box1 .about-text,
+.about-container .about-box2 .about-text {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.about-container .about-box1 .about-text .about-coment .about-title, .about-container .about-box2 .about-text .about-coment .about-title {
+.about-container .about-box1 .about-text .about-coment .about-title,
+.about-container .about-box2 .about-text .about-coment .about-title {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 500;
@@ -42,19 +79,32 @@ h2 {
   flex-flow: column;
 }
 
-.about-container .about-box1 .about-text .about-coment .about-income, .about-container .about-box2 .about-text .about-coment .about-income {
+.about-container .about-box1 .about-text .about-coment .about-income,
+.about-container .about-box2 .about-text .about-coment .about-income {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 47px;
   flex-direction: column;
   line-height: 1.2em;
 }
 
-.about-container .about-box1 .about-text .about-img, .about-container .about-box2 .about-text .about-img {
-  width: 400px;
-  height: 320px;
+.about-container .about-box1 .about-text .about-coment .location-about,
+.about-container .about-box2 .about-text .about-coment .location-about {
+  margin-left: 70px;
+}
+
+.about-container .about-box1 .about-text .about-coment .location-customer,
+.about-container .about-box2 .about-text .about-coment .location-customer {
+  margin-right: 70px;
+}
+
+.about-container .about-box1 .about-text .about-img,
+.about-container .about-box2 .about-text .about-img {
+  width: 320px;
+  height: 430px;
+  box-shadow: 12px 12px 2px 1px yellow;
 }
 
 .sponser-containar {
@@ -95,6 +145,7 @@ h2 {
   width: 30%;
   margin-left: auto;
   padding: 30px;
+  box-shadow: 12px 12px 2px 1px #9067E9;
 }
 
 .servce-container .servce-text1 {

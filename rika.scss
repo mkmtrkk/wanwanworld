@@ -20,38 +20,63 @@ h2 {
 }
 
 // ------about------
+// 追加しましたyuki
+#about-section {
+    position: relative;
 
-.about-container{
+    .about-background {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .back2 {
+        top: 150px;
+        right: 0;
+    }
+
+    .back3 {
+        top: 400px;
+        left: 0;
+    }
+
+    .back4 {
+        top: 250px;
+        right: 0;
+    }
+
+    .back5 {
+        top: 800px;
+        left: 30px;
+    }
+
+    .back6 {
+        top: 800px;
+        right: 100px;
+    }
+}
+
+// ここまで追加しました
+
+.about-container {
     width: 1170px;
     margin: 0 auto;
 
-// <<<<<<< HEAD
-    // .about-text{
-    //     display: flex;
-    //     align-items: center;
-    //     padding: 0 60px;
-
-    //     .about-coment {
-    //         // justify-content: space-between;
-    //         margin: 0 50px;
-    //     }
-    //     .about-img{
-    //         width: 500px;
-    //         height: 420px;
-    .about-box1,.about-box2{
+    .about-box1,
+    .about-box2 {
         margin-bottom: 20px;
-    
-        .about-text{
+
+        .about-text {
             display: flex;
             align-items: center;
             // padding: 0 60px;
             // margin: 0 auto;
-            justify-content: center;
+            // 変更しましたyuki
+            justify-content: space-around;
 
             .about-coment {
                 // justify-content: space-between;
                 // margin: 0 100px;
-                
+
 
                 .about-title {
                     font-family: 'ABeeZee';
@@ -60,28 +85,41 @@ h2 {
                     font-size: 30px;
                     line-height: 59px;
                     flex-flow: column;
+                    // margin-left: 40px;
                 }
-                
+
                 .about-income {
-                    font-family:'ABeeZee';
+                    font-family: 'ABeeZee';
                     font-style: normal;
                     font-weight: 200;
-                    font-size: 20px;
+                    font-size: 25px;
                     line-height: 47px;
                     flex-direction: column;
                     // letter-spacing: -0.1em;
                     line-height: 1.2em;
-                    
-                
+                    // margin-left: 40px;
+                }
+
+                // 追加しましたyuki
+                .location-about {
+                    margin-left: 70px;
+                }
+
+                // 追加しましたyuki
+                .location-customer {
+                    margin-right: 70px;
                 }
             }
-            .about-img{
-                width: 400px;
-                height: 320px;
+
+            .about-img {
+                width: 320px;
+                height: 430px;
+                // 追加しましたyuki
+                box-shadow: 12px 12px 2px 1px yellow;
             }
         }
     }
-    
+
 
 }
 
@@ -118,18 +156,20 @@ h2 {
 
 //-----Servce-----
 
-.ser{
+.ser {
     display: flex;
     width: 1170px;
     margin: 0 auto;
 }
-.servce-container{
+
+.servce-container {
     border: 2px solid #9067E9; //
     width: 30%;
     margin-left: auto;
     padding: 30px;
-    
-    .servce-text1{
+    box-shadow: 12px 12px 2px 1px #9067E9;
+
+    .servce-text1 {
         font-family: 'ABeeZee';
         font-style: normal;
         // font-weight: 400;
@@ -137,7 +177,8 @@ h2 {
         line-height: 38px;
         letter-spacing: -0.03em;
     }
-    .servce-text2{
+
+    .servce-text2 {
         font-family: 'ABeeZee';
         font-style: normal;
         font-weight: 200;
@@ -152,7 +193,7 @@ h2 {
 
 
 // ----- Customer Voice -----
-.boi{
+.boi {
     display: flex;
     width: 1170px;
     margin: 0 auto;
@@ -160,12 +201,12 @@ h2 {
     align-items: center;
 }
 
-.voice{
-    &-text{
+.voice {
+    &-text {
         margin: 0 20px 0 100px;
     }
 
-    &-come1{
+    &-come1 {
         font-family: 'ABeeZee';
         font-style: normal;
         font-weight: 400;
@@ -173,7 +214,8 @@ h2 {
         line-height: 38px;
 
     }
-    &-come2{
+
+    &-come2 {
         font-family: 'ABeeZee';
         font-style: normal;
         font-weight: 400;
@@ -181,7 +223,8 @@ h2 {
         line-height: 59px;
 
     }
-    &-come3{
+
+    &-come3 {
         font-family: 'ABeeZee';
         font-style: normal;
         font-weight: 400;
