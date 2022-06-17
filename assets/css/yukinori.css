@@ -128,6 +128,18 @@
   justify-content: space-around;
 }
 
+.contact-all h4 {
+  font-family: 'Source Han Sans JP';
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-all p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
 .contact-left {
   width: 50%;
 }
@@ -135,6 +147,24 @@
 .contact-left form {
   display: flex;
   flex-direction: column;
+}
+
+.contact-left form p {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.contact-left form input {
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+.contact-left form textarea {
+  margin-bottom: 15px;
+}
+
+.contact-left u {
+  background: linear-gradient(transparent 80%, #FFFF00 0%);
 }
 
 .contact-left input {
@@ -156,7 +186,7 @@
 }
 
 .line {
-  margin: 0 1rem;
+  margin: 0 3rem;
   width: 2px;
   background-color: #000;
 }
@@ -168,8 +198,12 @@
 .contact-right picture {
   display: flex;
   align-items: center;
-  margin: 100px 0;
+  margin: 180px 0;
   width: 70%;
+}
+
+.contact-right u {
+  background: linear-gradient(transparent 80%, #039c00 0%);
 }
 
 .company-all {
