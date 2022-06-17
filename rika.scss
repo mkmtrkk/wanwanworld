@@ -47,7 +47,7 @@ h2 {
             align-items: center;
             // padding: 0 60px;
             // margin: 0 auto;
-            justify-content: center;
+            justify-content: space-around;
 
             .about-coment {
                 // justify-content: space-between;
@@ -78,8 +78,8 @@ h2 {
             }
 
             .about-img {
-                width: 400px;
-                height: 320px;
+                width: 320px;
+                height: 400px;
             }
         }
     }
