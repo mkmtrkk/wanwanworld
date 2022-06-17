@@ -13,8 +13,8 @@ h2 {
     font-family: 'Source Sans Pro', sans-serif;
     // font-family: 'Source Han Sans JP';
     font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
+    font-weight: 900;
+    font-size: 65px;
     line-height: 116px;
     margin: 50px 0 20px;
 }
@@ -150,12 +150,12 @@ h2 {
     flex-direction: column;
 
     .logo{
+        width: 90.5%;
         margin: 0 auto;
-
     }
 
     .kaeru {
-        width: 500px;
+        width: 435px;
         height: 420px;
         margin: 0 auto;
         padding: 50px 0 20px;
@@ -182,9 +182,14 @@ h2 {
     border: 2px solid #9067E9; //
     width: 30%;
     margin-left: auto;
-    padding: 30px;
+    padding: 50px 30px;
     box-shadow: 12px 12px 2px 1px #9067E9;
 
+    .servce-pic{
+        width: 120px;
+        margin: 10px;
+    }
+    
     .servce-text1 {
         font-family: 'ABeeZee';
         font-style: normal;
