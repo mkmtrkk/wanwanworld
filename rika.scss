@@ -38,21 +38,23 @@ h2 {
         left: 0;
     }
 
-    .back4{
+    .back4 {
         top: 250px;
         right: 0;
     }
 
-    .back5{
+    .back5 {
         top: 800px;
         left: 30px;
     }
 
-    .back6{
+    .back6 {
         top: 800px;
         right: 100px;
     }
 }
+
+// ここまで追加しました
 
 .about-container {
     width: 1170px;
@@ -111,6 +113,8 @@ h2 {
             .about-img {
                 width: 320px;
                 height: 430px;
+                // 追加しましたyuki
+                box-shadow: 12px 12px 2px 1px yellow;
             }
         }
     }

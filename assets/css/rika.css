@@ -103,6 +103,7 @@ h2 {
 .about-container .about-box2 .about-text .about-img {
   width: 320px;
   height: 430px;
+  box-shadow: 12px 12px 2px 1px yellow;
 }
 
 .sponser-containar {
