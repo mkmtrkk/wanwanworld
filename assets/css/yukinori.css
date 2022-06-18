@@ -237,6 +237,7 @@
 @media screen and (max-width: 767px) {
   .pet-livers ul {
     flex-direction: column;
+    align-items: center;
   }
 }
 

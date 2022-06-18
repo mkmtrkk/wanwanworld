@@ -27,6 +27,12 @@ h2 {
   z-index: 1;
 }
 
+@media screen and (max-width: 767px) {
+  #about-section .about-background {
+    display: none;
+  }
+}
+
 #about-section .back1 {
   width: 17.1%;
   height: auto;
@@ -73,20 +79,37 @@ h2 {
   margin: 0 auto;
 }
 
-.about-container .about-box1,
-.about-container .about-box2 {
-  margin-bottom: 20px;
+.about-container #kokujinnsyojo .about-text {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
-.about-container .about-box1 .about-text,
-.about-container .about-box2 .about-text {
+@media screen and (max-width: 767px) {
+  .about-container #kokujinnsyojo .about-text {
+    flex-direction: column-reverse;
+  }
+}
+
+.about-container .about-text {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.about-container .about-box1 .about-text .about-coment .about-title,
-.about-container .about-box2 .about-text .about-coment .about-title {
+@media screen and (max-width: 767px) {
+  .about-container .about-text {
+    flex-direction: column-reverse;
+  }
+}
+
+.about-container .about-box1,
+.about-container .about-box2 {
+  margin-bottom: 20px;
+}
+
+.about-container .about-box1 .about-coment .about-title,
+.about-container .about-box2 .about-coment .about-title {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 500;
@@ -95,8 +118,8 @@ h2 {
   flex-flow: column;
 }
 
-.about-container .about-box1 .about-text .about-coment .about-income,
-.about-container .about-box2 .about-text .about-coment .about-income {
+.about-container .about-box1 .about-coment .about-income,
+.about-container .about-box2 .about-coment .about-income {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 200;
@@ -106,25 +129,25 @@ h2 {
   line-height: 1.2em;
 }
 
-.about-container .about-box1 .about-text .about-coment .location-about,
-.about-container .about-box2 .about-text .about-coment .location-about {
+.about-container .about-box1 .about-coment .location-about,
+.about-container .about-box2 .about-coment .location-about {
   margin-left: 70px;
 }
 
-.about-container .about-box1 .about-text .about-coment .location-customer,
-.about-container .about-box2 .about-text .about-coment .location-customer {
+.about-container .about-box1 .about-coment .location-customer,
+.about-container .about-box2 .about-coment .location-customer {
   margin-right: 70px;
 }
 
-.about-container .about-box1 .about-text .about-img1,
-.about-container .about-box2 .about-text .about-img1 {
+.about-container .about-box1 .about-img1,
+.about-container .about-box2 .about-img1 {
   width: 320px;
   height: 430px;
   box-shadow: 15px 12px 1px 1px #F9C83B;
 }
 
-.about-container .about-box1 .about-text .about-img2,
-.about-container .about-box2 .about-text .about-img2 {
+.about-container .about-box1 .about-img2,
+.about-container .about-box2 .about-img2 {
   width: 320px;
   height: 430px;
   box-shadow: -15px 12px 1px 1px #FFF835;

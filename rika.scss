@@ -34,6 +34,10 @@ h2 {
     .about-background {
         position: absolute;
         z-index: 1;
+
+        @include sp-screen {
+            display: none;
+        }
     }
 
     .back1 {
@@ -84,71 +88,90 @@ h2 {
     width: 1170px;
     margin: 0 auto;
 
+    #kokujinnsyojo {
+        .about-text {
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+
+            @include sp-screen {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+
+    .about-text {
+        display: flex;
+        align-items: center;
+        // padding: 0 60px;
+        // margin: 0 auto;
+        // 変更しましたyuki
+        justify-content: space-around;
+
+        @include sp-screen {
+            flex-direction: column-reverse;
+        }
+    }
 
     .about-box1,
     .about-box2 {
         margin-bottom: 20px;
 
-        .about-text {
-            display: flex;
-            align-items: center;
-            // padding: 0 60px;
-            // margin: 0 auto;
-            // 変更しましたyuki
-            justify-content: space-around;
-
-            .about-coment {
-                // justify-content: space-between;
-                // margin: 0 100px;
 
 
-                .about-title {
-                    font-family: 'ABeeZee';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 30px;
-                    line-height: 59px;
-                    flex-flow: column;
-                    // margin-left: 40px;
-                }
+        .about-coment {
+            // justify-content: space-between;
+            // margin: 0 100px;
 
-                .about-income {
-                    font-family: 'ABeeZee';
-                    font-style: normal;
-                    font-weight: 200;
-                    font-size: 25px;
-                    line-height: 47px;
-                    flex-direction: column;
-                    // letter-spacing: -0.1em;
-                    line-height: 1.2em;
-                    // margin-left: 40px;
-                }
 
-                // 追加しましたyuki
-                .location-about {
-                    margin-left: 70px;
-                }
-
-                // 追加しましたyuki
-                .location-customer {
-                    margin-right: 70px;
-                }
+            .about-title {
+                font-family: 'ABeeZee';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 59px;
+                flex-flow: column;
+                // margin-left: 40px;
             }
 
-            .about-img1 {
-                width: 320px;
-                height: 430px;
-                // 追加しましたyuki
-                box-shadow: 15px 12px 1px 1px #F9C83B;
-            }
-            .about-img2 {
-                width: 320px;
-                height: 430px;
-                // 追加しましたyuki
-                box-shadow: -15px 12px 1px 1px #FFF835;
+            .about-income {
+                font-family: 'ABeeZee';
+                font-style: normal;
+                font-weight: 200;
+                font-size: 25px;
+                line-height: 47px;
+                flex-direction: column;
+                // letter-spacing: -0.1em;
+                line-height: 1.2em;
+                // margin-left: 40px;
             }
 
+            // 追加しましたyuki
+            .location-about {
+                margin-left: 70px;
+            }
+
+            // 追加しましたyuki
+            .location-customer {
+                margin-right: 70px;
+            }
         }
+
+        .about-img1 {
+            width: 320px;
+            height: 430px;
+            // 追加しましたyuki
+            box-shadow: 15px 12px 1px 1px #F9C83B;
+        }
+
+        .about-img2 {
+            width: 320px;
+            height: 430px;
+            // 追加しましたyuki
+            box-shadow: -15px 12px 1px 1px #FFF835;
+        }
+
+
 
     }
 
@@ -200,20 +223,20 @@ h2 {
     padding: 50px 20px 50px 30px;
     box-shadow: 12px 12px 2px 1px #9067E9;
 
-// <<<<<<< HEAD
-//     .servce-pic {
-//         width: 120px;
-//         margin: 10px;
-//     }
+    // <<<<<<< HEAD
+    //     .servce-pic {
+    //         width: 120px;
+    //         margin: 10px;
+    //     }
 
-//     .servce-text1 {
-//         font-family: 'ABeeZee';
-//         font-style: normal;
-//         // font-weight: 400;
-//         font-size: 25px;
-//         line-height: 38px;
-//         letter-spacing: -0.03em;
-// =======
+    //     .servce-text1 {
+    //         font-family: 'ABeeZee';
+    //         font-style: normal;
+    //         // font-weight: 400;
+    //         font-size: 25px;
+    //         line-height: 38px;
+    //         letter-spacing: -0.03em;
+    // =======
     // .servce-box1{
     //     // margin: 0 0 0 10px;
     // }
@@ -241,65 +264,65 @@ h2 {
     // .servce-box9{
     //     margin-bottom: ;
     // }
-        .servce-pic{
-            width: 120px;
-            margin: 10px;
-        }
-        
-        .servce-text1 {
-            font-family: 'ABeeZee';
-            font-style: normal;
-            // font-weight: 400;
-            font-size: 23px;
-            line-height: 38px;
-            letter-spacing: -0.03em;
-            margin-left: 10px;
-        }
+    .servce-pic {
+        width: 120px;
+        margin: 10px;
+    }
 
-        .servce-text2 {
-            font-family: 'ABeeZee';
-            font-style: normal;
-            font-weight: 200;
-            font-size: 16px;
-            line-height: 26px;
-            letter-spacing: -0.03em;
-            margin: 0 0 40px 10px;
-            line-height: 1.2em;
-        }
+    .servce-text1 {
+        font-family: 'ABeeZee';
+        font-style: normal;
+        // font-weight: 400;
+        font-size: 23px;
+        line-height: 38px;
+        letter-spacing: -0.03em;
+        margin-left: 10px;
+    }
+
+    .servce-text2 {
+        font-family: 'ABeeZee';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.03em;
+        margin: 0 0 40px 10px;
+        line-height: 1.2em;
+    }
 
 }
 
 
 // ----- Customer Voice -----
 
-#customer{
+#customer {
     position: relative;
 
-    .voice-background{
+    .voice-background {
         position: absolute;
     }
 
-    .some1{
+    .some1 {
         width: 9.55%;
         height: auto;
         top: 130px;
         left: 50px;
     }
 
-    .some2{
+    .some2 {
         width: 21.45%;
         height: auto;
         top: 110px;
         right: 0;
     }
 
-    .some3{
+    .some3 {
         width: 26.85%;
         height: auto;
         top: 400px;
     }
 
-    .some4{
+    .some4 {
         width: 13.55%;
         height: auto;
         top: 620px;
@@ -318,7 +341,7 @@ h2 {
     align-items: center;
 
 
-    img{
+    img {
         width: 460px;
         // padding-left: 20px;
         box-shadow: -25px 15px 1px 1px #e7afc3;
