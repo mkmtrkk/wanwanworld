@@ -69,7 +69,8 @@
     text-align: center;
     padding: 150px 0;
     position: absolute;
-    right: -168px;
+    right: -191px;
+    position: fixed;
     transition: all 1s ease;
   }
   .header ul.hide {
@@ -107,7 +108,7 @@
 @media screen and (max-width: 767px) {
   #wall img {
     top: 200px;
-    z-index: -1;
+    z-index: 0;
   }
 }
 
@@ -127,6 +128,13 @@
   flex-direction: column;
   justify-content: center;
   z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+  #wall .kv-text {
+    position: relative;
+    margin-left: 30px;
+  }
 }
 
 #wall .kv-text1 {
