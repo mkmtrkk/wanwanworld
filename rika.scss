@@ -127,11 +127,17 @@ h2 {
                 }
             }
 
-            .about-img {
+            .about-img1 {
                 width: 320px;
                 height: 430px;
                 // 追加しましたyuki
-                box-shadow: 12px 12px 2px 1px yellow;
+                box-shadow: 15px 12px 1px 1px #F9C83B;
+            }
+            .about-img2 {
+                width: 320px;
+                height: 430px;
+                // 追加しましたyuki
+                box-shadow: -15px 12px 1px 1px #FFF835;
             }
         }
     }
@@ -250,22 +256,31 @@ h2 {
         position: absolute;
     }
 
-    // .some1{
-    //     width: ;
-    // }
+    .some1{
+        width: 9.55%;
+        height: auto;
+        top: 130px;
+        left: 50px;
+    }
 
     .some2{
         width: 19.45%;
         height: auto;
-        top: 0;
+        top: 110px;
         right: 0;
     }
 
-    .some4{
-        width: 15.55%;
+    .some3{
+        width: 17.85%;
         height: auto;
         top: 500px;
-        right: 20px;
+    }
+
+    .some4{
+        width: 22.55%;
+        height: auto;
+        top: 620px;
+        right: 30px;
     }
 }
 
@@ -282,7 +297,8 @@ h2 {
 
     img{
         width: 460px;
-        padding-left: 20px;
+        // padding-left: 20px;
+        box-shadow: -25px 15px 1px 1px #e7afc3;
     }
 }
 
