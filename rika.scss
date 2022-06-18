@@ -149,11 +149,19 @@ h2 {
             // 追加しましたyuki
             .location-about {
                 margin-left: 70px;
+
+                @include sp-screen{
+                    margin-left: 0;
+                }
             }
 
             // 追加しましたyuki
             .location-customer {
                 margin-right: 70px;
+
+                @include sp-screen{
+                    margin-right: 0;
+                }
             }
         }
 
