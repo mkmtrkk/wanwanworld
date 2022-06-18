@@ -1,3 +1,10 @@
+// レスポンシブ
+@mixin sp-screen {
+    @media screen and (max-width: 767px) {
+        @content;
+    }
+}
+
 h1 {
     text-align: center;
     font-family: 'ABeeZee';
@@ -77,6 +84,7 @@ h2 {
     width: 1170px;
     margin: 0 auto;
 
+
     .about-box1,
     .about-box2 {
         margin-bottom: 20px;
@@ -133,9 +141,10 @@ h2 {
                 // 追加しましたyuki
                 box-shadow: 12px 12px 2px 1px yellow;
             }
-        }
-    }
 
+        }
+
+    }
 
 }
 
@@ -149,7 +158,7 @@ h2 {
     display: flex;
     flex-direction: column;
 
-    .logo{
+    .logo {
         width: 90.5%;
         margin: 0 auto;
     }
@@ -185,11 +194,11 @@ h2 {
     padding: 50px 30px;
     box-shadow: 12px 12px 2px 1px #9067E9;
 
-    .servce-pic{
+    .servce-pic {
         width: 120px;
         margin: 10px;
     }
-    
+
     .servce-text1 {
         font-family: 'ABeeZee';
         font-style: normal;
@@ -254,6 +263,7 @@ h2 {
         letter-spacing: -0.03em;
     }
 }
+
 
 // -----footer-----
 footer {

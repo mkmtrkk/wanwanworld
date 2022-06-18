@@ -15,7 +15,7 @@ $(function () {
         });
     });
 
-    // 右と左からででくる
+    // 右と左かででくる
     $(window).on('load scroll', function () {
         $('.inview').each(function () {
             //ターゲットの位置を取得
@@ -32,5 +32,10 @@ $(function () {
         });
     });
 
-});
 
+    // hamburgerメニュー
+    $("#q7-btn").on("click", function () {
+        $(this).toggleClass("on"); //class,cを小文字にしがち
+        $("ul").toggleClass("hide");
+    })
+});

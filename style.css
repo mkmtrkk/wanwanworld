@@ -82,3 +82,28 @@
     transform: translate(0, 0);
     opacity: 1;
 }
+
+@media screen and (max-width: 767px) {
+    .kv1{
+        background-image: url(./img/kv_03_sp.jpg);
+        width: 59.18%;
+        /* height: auto; */
+    }
+
+    .kv2{
+        background-image: url(./img/kv_02_sp.jpg);
+        width: 41.72%;
+        height: auto;
+    }
+
+    .kv3{
+        background-image: url(./img/kv_04_sp.jpg);
+        height: auto;
+        width: 59.18%;
+    }
+    .kv4{
+        background-image: url(./img/kv_01_sp.jpg);
+        width: 41.72%;
+        /* height: auto; */
+    }
+}
