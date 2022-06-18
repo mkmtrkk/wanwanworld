@@ -3,7 +3,7 @@ h1 {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 95px;
   margin: 50px 0 20px;
 }
@@ -116,11 +116,18 @@ h2 {
   margin-right: 70px;
 }
 
-.about-container .about-box1 .about-text .about-img,
-.about-container .about-box2 .about-text .about-img {
+.about-container .about-box1 .about-text .about-img1,
+.about-container .about-box2 .about-text .about-img1 {
   width: 320px;
   height: 430px;
-  box-shadow: 12px 12px 2px 1px yellow;
+  box-shadow: 15px 12px 1px 1px #F9C83B;
+}
+
+.about-container .about-box1 .about-text .about-img2,
+.about-container .about-box2 .about-text .about-img2 {
+  width: 320px;
+  height: 430px;
+  box-shadow: -15px 12px 1px 1px #FFF835;
 }
 
 .sponser-containar {
@@ -159,9 +166,9 @@ h2 {
 
 .servce-container {
   border: 2px solid #9067E9;
-  width: 30%;
+  width: 31.5%;
   margin-left: auto;
-  padding: 50px 30px;
+  padding: 50px 20px 50px 30px;
   box-shadow: 12px 12px 2px 1px #9067E9;
 }
 
@@ -173,27 +180,69 @@ h2 {
 .servce-container .servce-text1 {
   font-family: 'ABeeZee';
   font-style: normal;
-  font-size: 25px;
+  font-size: 23px;
   line-height: 38px;
   letter-spacing: -0.03em;
+  margin-left: 10px;
 }
 
 .servce-container .servce-text2 {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 200;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 26px;
   letter-spacing: -0.03em;
-  margin: 0 0 40px;
+  margin: 0 0 40px 10px;
   line-height: 1.2em;
+}
+
+#customer {
+  position: relative;
+}
+
+#customer .voice-background {
+  position: absolute;
+}
+
+#customer .some1 {
+  width: 9.55%;
+  height: auto;
+  top: 130px;
+  left: 50px;
+}
+
+#customer .some2 {
+  width: 21.45%;
+  height: auto;
+  top: 110px;
+  right: 0;
+}
+
+#customer .some3 {
+  width: 26.85%;
+  height: auto;
+  top: 400px;
+}
+
+#customer .some4 {
+  width: 13.55%;
+  height: auto;
+  top: 620px;
+  right: 30px;
 }
 
 .boi {
   display: flex;
   width: 1170px;
-  margin: 0 auto;
+  margin: 60px auto 0;
+  padding: 0 40px 0 100px;
   align-items: center;
+}
+
+.boi img {
+  width: 460px;
+  box-shadow: -25px 15px 1px 1px #e7afc3;
 }
 
 .voice-text {
@@ -205,7 +254,7 @@ h2 {
   font-style: normal;
   font-weight: 400;
   font-size: 23px;
-  line-height: 38px;
+  margin-bottom: 10px;
 }
 
 .voice-come2 {
@@ -214,14 +263,15 @@ h2 {
   font-weight: 400;
   font-size: 37px;
   line-height: 59px;
+  line-height: 1.3;
 }
 
 .voice-come3 {
   font-family: 'ABeeZee';
   font-style: normal;
-  font-weight: 400;
-  font-size: 27px;
-  line-height: 43px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.3;
   letter-spacing: -0.03em;
 }
 

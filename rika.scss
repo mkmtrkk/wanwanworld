@@ -10,7 +10,7 @@ h1 {
     font-family: 'ABeeZee';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 95px;
     margin: 50px 0 20px;
 }
@@ -135,11 +135,17 @@ h2 {
                 }
             }
 
-            .about-img {
+            .about-img1 {
                 width: 320px;
                 height: 430px;
                 // 追加しましたyuki
-                box-shadow: 12px 12px 2px 1px yellow;
+                box-shadow: 15px 12px 1px 1px #F9C83B;
+            }
+            .about-img2 {
+                width: 320px;
+                height: 430px;
+                // 追加しましたyuki
+                box-shadow: -15px 12px 1px 1px #FFF835;
             }
 
         }
@@ -189,46 +195,135 @@ h2 {
 
 .servce-container {
     border: 2px solid #9067E9; //
-    width: 30%;
+    width: 31.5%;
     margin-left: auto;
-    padding: 50px 30px;
+    padding: 50px 20px 50px 30px;
     box-shadow: 12px 12px 2px 1px #9067E9;
 
-    .servce-pic {
-        width: 120px;
-        margin: 10px;
-    }
+// <<<<<<< HEAD
+//     .servce-pic {
+//         width: 120px;
+//         margin: 10px;
+//     }
 
-    .servce-text1 {
-        font-family: 'ABeeZee';
-        font-style: normal;
-        // font-weight: 400;
-        font-size: 25px;
-        line-height: 38px;
-        letter-spacing: -0.03em;
-    }
+//     .servce-text1 {
+//         font-family: 'ABeeZee';
+//         font-style: normal;
+//         // font-weight: 400;
+//         font-size: 25px;
+//         line-height: 38px;
+//         letter-spacing: -0.03em;
+// =======
+    // .servce-box1{
+    //     // margin: 0 0 0 10px;
+    // }
+    // .servce-box2{
+    //     margin-bottom: ;
+    // }
+    // .servce-box3{
+    //     margin-bottom: ;
+    // }
+    // .servce-box4{
+    //     margin-bottom: ;
+    // }
+    // .servce-box5{
+    //     margin-bottom: ;
+    // }
+    // .servce-box6{
+    //     margin-bottom: ;
+    // }
+    // .servce-box7{
+    //     margin-bottom: ;
+    // }
+    // .servce-box8{
+    //     margin-bottom: ;
+    // }
+    // .servce-box9{
+    //     margin-bottom: ;
+    // }
+        .servce-pic{
+            width: 120px;
+            margin: 10px;
+        }
+        
+        .servce-text1 {
+            font-family: 'ABeeZee';
+            font-style: normal;
+            // font-weight: 400;
+            font-size: 23px;
+            line-height: 38px;
+            letter-spacing: -0.03em;
+            margin-left: 10px;
+        }
 
-    .servce-text2 {
-        font-family: 'ABeeZee';
-        font-style: normal;
-        font-weight: 200;
-        font-size: 17px;
-        line-height: 26px;
-        letter-spacing: -0.03em;
-        margin: 0 0 40px;
-        line-height: 1.2em;
-    }
+        .servce-text2 {
+            font-family: 'ABeeZee';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: -0.03em;
+            margin: 0 0 40px 10px;
+            line-height: 1.2em;
+        }
 
 }
 
 
 // ----- Customer Voice -----
+
+#customer{
+    position: relative;
+
+    .voice-background{
+        position: absolute;
+    }
+
+    .some1{
+        width: 9.55%;
+        height: auto;
+        top: 130px;
+        left: 50px;
+>>>>>>> be3f5f8a6717f4203886ae6f1b4ad0b6a3897d21
+    }
+
+    .some2{
+        width: 21.45%;
+        height: auto;
+        top: 110px;
+        right: 0;
+    }
+
+    .some3{
+        width: 26.85%;
+        height: auto;
+        top: 400px;
+    }
+
+    .some4{
+        width: 13.55%;
+        height: auto;
+        top: 620px;
+        right: 30px;
+    }
+}
+
+
+
 .boi {
     display: flex;
     width: 1170px;
-    margin: 0 auto;
+    margin: 60px auto 0;
+    padding: 0 40px 0 100px;
     // justify-content: center;
     align-items: center;
+
+
+    img{
+        width: 460px;
+        // padding-left: 20px;
+        box-shadow: -25px 15px 1px 1px #e7afc3;
+    }
 }
 
 .voice {
@@ -241,7 +336,7 @@ h2 {
         font-style: normal;
         font-weight: 400;
         font-size: 23px;
-        line-height: 38px;
+        margin-bottom: 10px;
 
     }
 
@@ -251,16 +346,19 @@ h2 {
         font-weight: 400;
         font-size: 37px;
         line-height: 59px;
+        line-height: 1.3;
 
     }
 
     &-come3 {
         font-family: 'ABeeZee';
         font-style: normal;
-        font-weight: 400;
-        font-size: 27px;
-        line-height: 43px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 1.3;
         letter-spacing: -0.03em;
+
+        // letter-spacing: -0.1em;
     }
 }
 
