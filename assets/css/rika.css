@@ -134,9 +134,23 @@ h2 {
   margin-left: 70px;
 }
 
+@media screen and (max-width: 767px) {
+  .about-container .about-box1 .about-coment .location-about,
+  .about-container .about-box2 .about-coment .location-about {
+    margin-left: 0;
+  }
+}
+
 .about-container .about-box1 .about-coment .location-customer,
 .about-container .about-box2 .about-coment .location-customer {
   margin-right: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  .about-container .about-box1 .about-coment .location-customer,
+  .about-container .about-box2 .about-coment .location-customer {
+    margin-right: 0;
+  }
 }
 
 .about-container .about-box1 .about-img1,
