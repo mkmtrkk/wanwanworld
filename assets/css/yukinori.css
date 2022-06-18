@@ -81,7 +81,7 @@
   }
 }
 
-li {
+.header li {
   padding: 10px 20px;
   font-style: normal;
   font-weight: 400;
@@ -91,7 +91,7 @@ li {
 }
 
 @media screen and (max-width: 767px) {
-  li {
+  .header li {
     padding: 0;
   }
 }
