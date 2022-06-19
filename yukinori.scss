@@ -85,7 +85,7 @@
       text-align: center;
       padding: 150px 0;
       position: absolute;
-      right: -191px;
+      right: -183px;
       position: fixed;
       z-index: 2;
       overflow: hidden;
@@ -123,6 +123,7 @@ li {
 
 
 // kv
+
 #wall {
   position: relative;
 
@@ -256,14 +257,15 @@ li {
 
   .pet1 {
     background-color: white;
-    width: 24%;
+    width: 23%;
     height: 55vh;
     border: 3.79px solid #EA5555;
     // margin-top: 20px;
 
     @include sp-screen{
-      width: 77%;
-      margin: 0 50px;
+      width: 73%;
+      height: 100%;
+      margin: 0 auto;
     }
   }
   .pet2 {
@@ -477,7 +479,7 @@ li {
   width: 1170px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   // align-items: center;
   margin-bottom: 200px;
 
@@ -485,6 +487,8 @@ li {
     flex-direction: column;
     // align-items: center;
     width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
   }
 }
 
@@ -504,5 +508,9 @@ li {
 
   .company-text {
     font-size: 25px;
+
+    @include sp-screen{
+      margin-bottom: 100px;
+    }
   }
 }

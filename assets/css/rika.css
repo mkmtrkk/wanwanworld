@@ -225,13 +225,14 @@ h2 {
   .ser {
     width: 100%;
     flex-direction: column;
+    align-items: center;
   }
 }
 
 .servce-container {
   border: 2px solid #9067E9;
-  width: 31.5%;
-  margin-left: auto;
+  width: 29.5%;
+  margin-left: 30px;
   padding: 50px 15px 30px 30px;
   box-shadow: 12px 12px 1px 1px #9067E9;
 }
@@ -240,7 +241,7 @@ h2 {
   .servce-container {
     margin: 0;
     margin-bottom: 30px;
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -382,6 +383,12 @@ h2 {
 .boi img {
   width: 460px;
   box-shadow: -25px 15px 1px 1px #e7afc3;
+}
+
+@media screen and (max-width: 767px) {
+  .boi img {
+    width: 330px;
+  }
 }
 
 .voice-text {
