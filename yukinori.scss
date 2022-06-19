@@ -16,7 +16,7 @@
 
     .hamburger {
       position: absolute;
-      z-index: 2;
+      z-index: 3;
       right: 20px;
       width: 28px;
       height: 30px;
@@ -89,7 +89,7 @@
       position: fixed;
 
       &.hide {
-        z-index: 1;
+        z-index: 2;
         right: 0;
         // transform: translateX(-300px);
         /* transform: translateY(-500px); */
@@ -373,6 +373,11 @@ li {
   display: flex;
   justify-content: space-around;
 
+  @include sp-screen{
+    flex-direction: column;
+    align-items: center;
+  }
+
   h4 {
     font-family: 'Source Han Sans JP';
     font-style: normal;
@@ -438,6 +443,12 @@ li {
   margin: 0 3rem;
   width: 2px;
   background-color: #000;
+
+  @include sp-screen{
+    width: 40%;
+    height: 2px;
+    margin: 30px 0;
+  }
 }
 
 .contact-right {
@@ -466,6 +477,11 @@ li {
   justify-content: space-between;
   // align-items: center;
   margin-bottom: 200px;
+
+  @include sp-screen{
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .company-left {
