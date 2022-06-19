@@ -205,16 +205,16 @@ h2 {
   border: 2px solid #9067E9;
   width: 31.5%;
   margin-left: auto;
-  padding: 50px 20px 50px 30px;
-  box-shadow: 12px 12px 2px 1px #9067E9;
+  padding: 50px 15px 50px 30px;
+  box-shadow: 12px 12px 1px 1px #9067E9;
 }
 
-.servce-container .servce-pic {
+.servce-pic {
   width: 120px;
   margin: 10px;
 }
 
-.servce-container .servce-text1 {
+.servce-text1 {
   font-family: 'ABeeZee';
   font-style: normal;
   font-size: 23px;
@@ -223,15 +223,50 @@ h2 {
   margin-left: 10px;
 }
 
-.servce-container .servce-text2 {
+.servce-text2 {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 200;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: -0.03em;
-  margin: 0 0 40px 10px;
   line-height: 1.2em;
+}
+
+.s1 {
+  margin: 0 0 40px 10px;
+}
+
+.s2 {
+  margin: 0 0 40px 10px;
+}
+
+.s3 {
+  margin: 0 0 40px 10px;
+}
+
+.s4 {
+  margin: 0 0 22px 10px;
+}
+
+.s5 {
+  margin: 0 0 40px 10px;
+}
+
+.s6 {
+  margin: 0 0 78px 10px;
+}
+
+.s7 {
+  margin: 0 0 22px 10px;
+}
+
+.s8 {
+  margin: 0 0 40px 10px;
+}
+
+.s9 {
+  margin: 0 0 25px 10px;
 }
 
 #customer {
