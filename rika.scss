@@ -88,6 +88,10 @@ h2 {
     width: 1170px;
     margin: 0 auto;
 
+    @include sp-screen{
+        width: 100%;
+    }
+
     #kokujinnsyojo {
         .about-text {
             display: flex;
@@ -227,6 +231,11 @@ h2 {
     display: flex;
     width: 1170px;
     margin: 0 auto;
+
+    @include sp-screen{
+        flex-direction: column;
+        // align-items: center;
+    }
 }
 
 .servce {
@@ -241,6 +250,11 @@ h2 {
         margin-left: auto;
         padding: 50px 15px 30px 30px;
         box-shadow: 12px 12px 1px 1px #9067E9;
+
+        @include sp-screen{
+            margin: 0;
+            margin-bottom: 30px;
+        }
     }
 
     &-pic {
@@ -375,6 +389,7 @@ h2 {
 
     @include sp-screen {
         flex-direction: column;
+        align-items: baseline;
     }
 
 

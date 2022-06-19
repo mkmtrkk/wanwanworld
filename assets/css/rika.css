@@ -79,6 +79,12 @@ h2 {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 767px) {
+  .about-container {
+    width: 100%;
+  }
+}
+
 .about-container #kokujinnsyojo .about-text {
   display: flex;
   align-items: center;
@@ -209,12 +215,25 @@ h2 {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 767px) {
+  .ser {
+    flex-direction: column;
+  }
+}
+
 .servce-container {
   border: 2px solid #9067E9;
   width: 31.5%;
   margin-left: auto;
   padding: 50px 15px 30px 30px;
   box-shadow: 12px 12px 1px 1px #9067E9;
+}
+
+@media screen and (max-width: 767px) {
+  .servce-container {
+    margin: 0;
+    margin-bottom: 30px;
+  }
 }
 
 .servce-pic {
@@ -347,6 +366,7 @@ h2 {
 @media screen and (max-width: 767px) {
   .boi {
     flex-direction: column;
+    align-items: baseline;
   }
 }
 

@@ -230,59 +230,51 @@
   position: relative;
 }
 
-.pet-livers .pet1 {
+@media screen and (max-width: 767px) {
+  .pet-livers {
+    width: 100%;
+  }
+}
+
+.pet-livers .pet1, .pet-livers .pet2, .pet-livers .pet3, .pet-livers .pet4, .pet-livers .pet5, .pet-livers .pet6, .pet-livers .pet7, .pet-livers .pet8 {
   background-color: white;
   width: 24%;
   height: 55vh;
   border: 3.79px solid #EA5555;
 }
 
+@media screen and (max-width: 767px) {
+  .pet-livers .pet1, .pet-livers .pet2, .pet-livers .pet3, .pet-livers .pet4, .pet-livers .pet5, .pet-livers .pet6, .pet-livers .pet7, .pet-livers .pet8 {
+    width: 77%;
+    margin: 0 50px;
+  }
+}
+
 .pet-livers .pet2 {
-  background-color: white;
-  width: 24%;
-  height: 55vh;
   border: 4.42px solid #A817FB;
 }
 
 .pet-livers .pet3 {
-  background-color: white;
-  width: 24%;
-  height: 55vh;
   border: 3.15px solid #F0C83B;
 }
 
 .pet-livers .pet4 {
-  background-color: white;
-  width: 24%;
-  height: 55vh;
   border: 3.79px solid #E16A6E;
 }
 
 .pet-livers .pet5 {
-  background-color: white;
-  width: 24%;
-  height: 55vh;
   border: 3.15px solid #ED61F6;
 }
 
 .pet-livers .pet6 {
-  background-color: white;
-  width: 24%;
-  height: 55vh;
   border: 3.79px solid #52F1BF;
 }
 
 .pet-livers .pet7 {
-  background-color: white;
-  width: 24%;
-  height: 55vh;
   border: 3.79px solid #55B0EA;
 }
 
 .pet-livers .pet8 {
-  background-color: white;
-  width: 24%;
-  height: 55vh;
   border: 3.79px solid #FFB017;
 }
 
