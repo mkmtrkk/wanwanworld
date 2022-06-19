@@ -195,11 +195,27 @@ h2 {
   box-shadow: 15px 12px 1px 1px #F9C83B;
 }
 
+@media screen and (max-width: 767px) {
+  .about-container .about-box1 .about-img1,
+  .about-container .about-box2 .about-img1 {
+    width: 220px;
+    height: 330px;
+  }
+}
+
 .about-container .about-box1 .about-img2,
 .about-container .about-box2 .about-img2 {
   width: 320px;
   height: 430px;
   box-shadow: -15px 12px 1px 1px #FFF835;
+}
+
+@media screen and (max-width: 767px) {
+  .about-container .about-box1 .about-img2,
+  .about-container .about-box2 .about-img2 {
+    width: 220px;
+    height: 330px;
+  }
 }
 
 .sponser-containar {

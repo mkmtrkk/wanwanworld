@@ -85,7 +85,7 @@
       text-align: center;
       padding: 150px 0;
       position: absolute;
-      right: -165px;
+      right: -222px;
       position: fixed;
       z-index: 2;
       overflow: hidden;
@@ -129,6 +129,7 @@
 
   img {
     position: absolute;
+    top: 70px;
 
     @include sp-screen {
       top: 210px;
@@ -154,7 +155,7 @@
     @include sp-screen {
       position: relative;
       text-align: center;
-      padding: 17px 0 90px;
+      padding: 17px 0 40px;
     }
   }
 
@@ -162,39 +163,48 @@
     font-family: 'ABeeZee';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 69px;
     color: #000000;
+    font-size: 40px;
+    line-height: 69px;
+    padding: 0 0 10px;
+
+    @include sp-screen {
+      font-size: 22px;
+    }
   }
 
   .kv-text2 {
-    font-family: 'ABeeZee';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
+    @extend .kv-text1;
+    font-size: 40px;
     line-height: 1.1;
-    color: #000000;
+    padding: 0 0 15px;
+
+    @include sp-screen {
+      font-size: 22px;
+    }
   }
 
   .kv-title {
-    font-family: 'ABeeZee';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 62px;
+    @extend .kv-text1;
+    font-size: 75px;
     line-height: 1;
     letter-spacing: -0.02em;
-    color: #000000;
 
+    @include sp-screen {
+      font-size: 55px;
+    }
   }
 
   .kv-text3 {
-    font-family: 'ABeeZee';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
+    @extend .kv-text1;
+    font-size: 32px;
     line-height: 1.3;
     letter-spacing: -0.03em;
-    color: #000000;
+    padding: 15px 0 0;
+
+    @include sp-screen {
+      font-size: 22px;
+    }
   }
 }
 
