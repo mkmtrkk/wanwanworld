@@ -87,6 +87,7 @@
       position: absolute;
       right: -191px;
       position: fixed;
+      z-index: 2;
 
       &.hide {
         z-index: 2;
@@ -375,7 +376,7 @@ li {
 
   @include sp-screen{
     flex-direction: column;
-    align-items: center;
+    // align-items: center;
   }
 
   h4 {
@@ -480,7 +481,7 @@ li {
 
   @include sp-screen{
     flex-direction: column;
-    align-items: center;
+    // align-items: center;
   }
 }
 

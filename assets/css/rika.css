@@ -292,11 +292,23 @@ h2 {
   left: 50px;
 }
 
+@media screen and (max-width: 767px) {
+  #customer .some1 {
+    display: none;
+  }
+}
+
 #customer .some2 {
   width: 21.45%;
   height: auto;
   top: 110px;
   right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  #customer .some2 {
+    display: none;
+  }
 }
 
 #customer .some3 {
@@ -305,11 +317,23 @@ h2 {
   top: 400px;
 }
 
+@media screen and (max-width: 767px) {
+  #customer .some3 {
+    display: none;
+  }
+}
+
 #customer .some4 {
   width: 13.55%;
   height: auto;
   top: 620px;
   right: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  #customer .some4 {
+    display: none;
+  }
 }
 
 .boi {
@@ -320,6 +344,12 @@ h2 {
   align-items: center;
 }
 
+@media screen and (max-width: 767px) {
+  .boi {
+    flex-direction: column;
+  }
+}
+
 .boi img {
   width: 460px;
   box-shadow: -25px 15px 1px 1px #e7afc3;
@@ -327,6 +357,17 @@ h2 {
 
 .voice-text {
   margin: 0 20px 0 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .voice-text {
+    margin: 50px 0;
+    background-image: radial-gradient(#ebebeb 7px, transparent 2px), radial-gradient(#ebebeb 7px, #ffffff 2px);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+    padding: 0 70px 20px 70px;
+    width: 58%;
+  }
 }
 
 .voice-come1 {
@@ -353,6 +394,12 @@ h2 {
   font-size: 24px;
   line-height: 1.3;
   letter-spacing: -0.03em;
+}
+
+@media screen and (max-width: 767px) {
+  .voice-come3 .br-sp {
+    display: none;
+  }
 }
 
 footer {
