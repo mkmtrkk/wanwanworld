@@ -205,7 +205,7 @@ h2 {
   border: 2px solid #9067E9;
   width: 31.5%;
   margin-left: auto;
-  padding: 50px 15px 50px 30px;
+  padding: 50px 15px 30px 30px;
   box-shadow: 12px 12px 1px 1px #9067E9;
 }
 
@@ -242,7 +242,7 @@ h2 {
 }
 
 .s3 {
-  margin: 0 0 40px 10px;
+  margin: 0 0 0 10px;
 }
 
 .s4 {
@@ -250,11 +250,11 @@ h2 {
 }
 
 .s5 {
-  margin: 0 0 40px 10px;
+  margin: 0 0 78px 10px;
 }
 
 .s6 {
-  margin: 0 0 78px 10px;
+  margin: 0 0 0 10px;
 }
 
 .s7 {
@@ -262,11 +262,11 @@ h2 {
 }
 
 .s8 {
-  margin: 0 0 40px 10px;
+  margin: 0 0 28px 10px;
 }
 
 .s9 {
-  margin: 0 0 25px 10px;
+  margin: 0 0 0 10px;
 }
 
 #customer {
