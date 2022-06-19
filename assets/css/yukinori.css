@@ -146,6 +146,15 @@
   color: #000000;
 }
 
+#wall .kv-text2 {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.1;
+  color: #000000;
+}
+
 #wall .kv-title {
   font-family: 'ABeeZee';
   font-style: normal;
@@ -156,12 +165,12 @@
   color: #000000;
 }
 
-#wall .kv-text2 {
+#wall .kv-text3 {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
-  line-height: 57px;
+  font-size: 35px;
+  line-height: 1.3;
   letter-spacing: -0.03em;
   color: #000000;
 }
@@ -220,10 +229,60 @@
   position: relative;
 }
 
-.pet-livers .pet {
+.pet-livers .pet1 {
   background-color: white;
   width: 24%;
   height: 55vh;
+  border: 3.79px solid #EA5555;
+}
+
+.pet-livers .pet2 {
+  background-color: white;
+  width: 24%;
+  height: 55vh;
+  border: 4.42px solid #A817FB;
+}
+
+.pet-livers .pet3 {
+  background-color: white;
+  width: 24%;
+  height: 55vh;
+  border: 3.15px solid #F0C83B;
+}
+
+.pet-livers .pet4 {
+  background-color: white;
+  width: 24%;
+  height: 55vh;
+  border: 3.79px solid #E16A6E;
+}
+
+.pet-livers .pet5 {
+  background-color: white;
+  width: 24%;
+  height: 55vh;
+  border: 3.15px solid #ED61F6;
+}
+
+.pet-livers .pet6 {
+  background-color: white;
+  width: 24%;
+  height: 55vh;
+  border: 3.79px solid #52F1BF;
+}
+
+.pet-livers .pet7 {
+  background-color: white;
+  width: 24%;
+  height: 55vh;
+  border: 3.79px solid #55B0EA;
+}
+
+.pet-livers .pet8 {
+  background-color: white;
+  width: 24%;
+  height: 55vh;
+  border: 3.79px solid #FFB017;
 }
 
 .pet-livers ul {
