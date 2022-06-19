@@ -18,6 +18,12 @@ h2 {
   margin: 50px 0 20px;
 }
 
+@media screen and (max-width: 767px) {
+  h2 {
+    margin: 0 0 20px;
+  }
+}
+
 #about-section {
   position: relative;
 }
@@ -119,6 +125,7 @@ h2 {
   .about-container .about-box2 .about-coment {
     background: repeating-linear-gradient(-45deg, #ebebeb, #ebebeb 10px, #ffffff 10px, #ffffff 25px);
     margin-top: 40px;
+    padding: 20px 20px 60px;
   }
 }
 
@@ -132,6 +139,13 @@ h2 {
   flex-flow: column;
 }
 
+@media screen and (max-width: 767px) {
+  .about-container .about-box1 .about-coment .about-title,
+  .about-container .about-box2 .about-coment .about-title {
+    font-size: 25px;
+  }
+}
+
 .about-container .about-box1 .about-coment .about-income,
 .about-container .about-box2 .about-coment .about-income {
   font-family: 'ABeeZee';
@@ -141,6 +155,13 @@ h2 {
   line-height: 47px;
   flex-direction: column;
   line-height: 1.2em;
+}
+
+@media screen and (max-width: 767px) {
+  .about-container .about-box1 .about-coment .about-income,
+  .about-container .about-box2 .about-coment .about-income {
+    font-size: 20px;
+  }
 }
 
 .about-container .about-box1 .about-coment .location-about,
@@ -207,12 +228,25 @@ h2 {
   padding: 50px 0 20px;
 }
 
+@media screen and (max-width: 767px) {
+  .sponser-containar .kaeru {
+    width: 200px;
+    height: 220px;
+  }
+}
+
 .sponser-containar p {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
   line-height: 47px;
+}
+
+@media screen and (max-width: 767px) {
+  .sponser-containar p {
+    display: none;
+  }
 }
 
 .ser {
@@ -397,10 +431,11 @@ h2 {
 
 @media screen and (max-width: 767px) {
   .voice-text {
-    margin: 50px 0;
+    margin: 50px 0 0 0;
     background-image: radial-gradient(#ebebeb 7px, transparent 2px), radial-gradient(#ebebeb 7px, #ffffff 2px);
     background-size: 40px 40px;
     background-position: 0 0, 20px 20px;
+    width: 80%;
   }
 }
 
@@ -412,6 +447,12 @@ h2 {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .voice-come1 {
+    font-size: 18px;
+  }
+}
+
 .voice-come2 {
   font-family: 'ABeeZee';
   font-style: normal;
@@ -421,6 +462,12 @@ h2 {
   line-height: 1.3;
 }
 
+@media screen and (max-width: 767px) {
+  .voice-come2 {
+    font-size: 32px;
+  }
+}
+
 .voice-come3 {
   font-family: 'ABeeZee';
   font-style: normal;
@@ -428,6 +475,12 @@ h2 {
   font-size: 24px;
   line-height: 1.3;
   letter-spacing: -0.03em;
+}
+
+@media screen and (max-width: 767px) {
+  .voice-come3 {
+    font-size: 19px;
+  }
 }
 
 @media screen and (max-width: 767px) {
