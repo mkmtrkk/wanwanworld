@@ -88,6 +88,7 @@
       right: -191px;
       position: fixed;
       z-index: 2;
+      overflow: hidden;
 
       &.hide {
         z-index: 2;
@@ -373,6 +374,7 @@ li {
   @include sp-screen{
     flex-direction: column;
     // align-items: center;
+    width: 100%;
   }
 
   h4 {
@@ -391,6 +393,10 @@ li {
 
 .contact-left {
   width: 50%;
+  
+  @include sp-screen{
+    width: 100%;
+  }
 
   form {
     display: flex;
@@ -478,6 +484,7 @@ li {
   @include sp-screen{
     flex-direction: column;
     // align-items: center;
+    width: 100%;
   }
 }
 

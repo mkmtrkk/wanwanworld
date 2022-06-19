@@ -204,6 +204,10 @@ h2 {
     display: flex;
     flex-direction: column;
 
+    @include sp-screen{
+        width: 100%;
+    }
+
     .logo {
         width: 90.5%;
         margin: 0 auto;
@@ -233,6 +237,7 @@ h2 {
     margin: 0 auto;
 
     @include sp-screen{
+        width: 100%;
         flex-direction: column;
         // align-items: center;
     }
@@ -254,6 +259,7 @@ h2 {
         @include sp-screen{
             margin: 0;
             margin-bottom: 30px;
+            width: 100%;
         }
     }
 
@@ -389,7 +395,9 @@ h2 {
 
     @include sp-screen {
         flex-direction: column;
-        align-items: baseline;
+        // align-items: baseline;
+        width: 100%;
+        padding: 0;
     }
 
 
@@ -409,8 +417,6 @@ h2 {
             background-image: radial-gradient(#ebebeb 7px, transparent 2px), radial-gradient(#ebebeb 7px, #ffffff 2px);
             background-size: 40px 40px;
             background-position: 0 0, 20px 20px;
-            padding: 0 70px 20px 70px;
-            width: 58%;
         }
     }
 

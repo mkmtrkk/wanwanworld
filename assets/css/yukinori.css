@@ -72,6 +72,7 @@
     right: -191px;
     position: fixed;
     z-index: 2;
+    overflow: hidden;
     transition: all 1s ease;
   }
   .header ul.hide {
@@ -325,6 +326,7 @@
 @media screen and (max-width: 767px) {
   .contact-all {
     flex-direction: column;
+    width: 100%;
   }
 }
 
@@ -342,6 +344,12 @@
 
 .contact-left {
   width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .contact-left {
+    width: 100%;
+  }
 }
 
 .contact-left form {
@@ -427,6 +435,7 @@
 @media screen and (max-width: 767px) {
   .company-all {
     flex-direction: column;
+    width: 100%;
   }
 }
 
