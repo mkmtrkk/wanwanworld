@@ -50,43 +50,43 @@ h2 {
     }
 
     .back1 {
-        width: 17.1%;
+        width: 16.1%;
         height: auto;
     }
 
     .back2 {
-        width: 9%;
+        width: 10%;
         height: auto;
         top: 145px;
-        right: 80px;
+        right: 20px;
         transform: rotate(15deg);
     }
 
     .back3 {
-        width: 9.8%;
+        width: 11.8%;
         height: auto;
-        top: 490px;
-        left: 100px;
+        top: 530px;
+        left: 40px;
     }
 
     .back4 {
-        width: 16.45%;
+        width: 15.45%;
         height: auto;
-        top: 285px;
+        top: 380px;
         right: 0;
     }
 
     .back5 {
-        width: 10.5%;
+        width: 11.5%;
         height: auto;
-        top: 840px;
-        left: 110px;
+        top: 900px;
+        left: 70px;
     }
 
     .back6 {
         width: 5.8%;
         height: auto;
-        top: 800px;
+        top: 840px;
         right: 100px;
     }
 }
@@ -147,7 +147,7 @@ h2 {
                 font-family: 'ABeeZee';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 30px;
+                font-size: 32px;
                 line-height: 59px;
                 flex-flow: column;
                 // margin-left: 40px;
@@ -161,7 +161,7 @@ h2 {
                 font-family: 'ABeeZee';
                 font-style: normal;
                 font-weight: 200;
-                font-size: 25px;
+                font-size: 28px;
                 line-height: 47px;
                 flex-direction: column;
                 // letter-spacing: -0.1em;
@@ -193,8 +193,8 @@ h2 {
         }
 
         .about-img1 {
-            width: 320px;
-            height: 430px;
+            width: 360px;
+            height: 500px;
             // 追加しましたyuki
             box-shadow: 15px 12px 1px 1px #F9C83B;
 
@@ -205,8 +205,8 @@ h2 {
         }
 
         .about-img2 {
-            width: 320px;
-            height: 430px;
+            width: 360px;
+            height: 500px;
             // 追加しましたyuki
             box-shadow: -15px 12px 1px 1px #FFF835;
 
@@ -286,9 +286,9 @@ h2 {
 
 .servce {
 
-    &-box {
-        // border: 1px solid;
-    }
+    // &-box {
+    //     // border: 1px solid;
+    // }
 
     &-container {
         border: 2px solid #9067E9; //
@@ -334,7 +334,7 @@ h2 {
 }
 
 .s1 {
-    margin: 0 0 40px 10px;
+    margin: 0 0 45px 10px;
     font-size: 16px;
 }
 
@@ -350,7 +350,7 @@ h2 {
 }
 
 .s4 {
-    margin: 0 0 22px 10px;
+    margin: 0 0 27px 10px;
     font-size: 16px;
 }
 
@@ -365,12 +365,12 @@ h2 {
 }
 
 .s7 {
-    margin: 0 0 22px 10px;
+    margin: 0 0 27px 10px;
     font-size: 16px;
 }
 
 .s8 {
-    margin: 0 0 28px 10px;
+    margin: 0 0 50px 10px;
     font-size: 14px;
 }
 
@@ -517,6 +517,7 @@ h2 {
                 display: none;
             }
         }
+
 
     }
 }
