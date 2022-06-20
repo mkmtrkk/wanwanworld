@@ -244,6 +244,12 @@ h2 {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 767px) {
+  .sponser-containar .logo {
+    width: 52.5%;
+  }
+}
+
 .sponser-containar .kaeru {
   width: 435px;
   height: 420px;
@@ -298,7 +304,7 @@ h2 {
   .servce-container {
     margin: 0;
     margin-bottom: 30px;
-    width: 80%;
+    width: 66%;
   }
 }
 
@@ -320,7 +326,6 @@ h2 {
   font-family: 'ABeeZee';
   font-style: normal;
   font-weight: 200;
-  font-size: 16px;
   line-height: 26px;
   letter-spacing: -0.03em;
   line-height: 1.2em;
@@ -328,38 +333,47 @@ h2 {
 
 .s1 {
   margin: 0 0 40px 10px;
+  font-size: 16px;
 }
 
 .s2 {
   margin: 0 0 40px 10px;
+  font-size: 16px;
 }
 
 .s3 {
   margin: 0 0 0 10px;
+  font-size: 16px;
 }
 
 .s4 {
   margin: 0 0 22px 10px;
+  font-size: 16px;
 }
 
 .s5 {
   margin: 0 0 78px 10px;
+  font-size: 16px;
 }
 
 .s6 {
   margin: 0 0 0 10px;
+  font-size: 16px;
 }
 
 .s7 {
   margin: 0 0 22px 10px;
+  font-size: 16px;
 }
 
 .s8 {
   margin: 0 0 28px 10px;
+  font-size: 14px;
 }
 
 .s9 {
   margin: 0 0 0 10px;
+  font-size: 16px;
 }
 
 #customer {
