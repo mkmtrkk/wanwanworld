@@ -5,6 +5,11 @@
   }
 }
 
+body{
+@include sp-screen{
+  width: 1100px;
+}
+}
 // Livers Wall
 // ヘッダー&kv
 // ヘッダー
@@ -422,7 +427,7 @@
 
   p {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 13px;
   }
 }
 
@@ -554,6 +559,10 @@
     font-weight: 400;
     font-size: 60px;
     margin-bottom: 10px;
+
+    @include sp-screen{
+      font-size: 50px;
+    }
   }
 
   .company-title {
@@ -566,6 +575,7 @@
 
     @include sp-screen {
       margin-bottom: 100px;
+      font-size: 20px;
     }
   }
 }
