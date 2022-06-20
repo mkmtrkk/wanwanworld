@@ -372,7 +372,7 @@
 
 .contact-all p {
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 13px;
 }
 
 .contact-left {
@@ -512,6 +512,12 @@
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .company-left h4 {
+    font-size: 50px;
+  }
+}
+
 .company-left .company-title {
   font-size: 30px;
   margin-bottom: 10px;
@@ -524,6 +530,7 @@
 @media screen and (max-width: 767px) {
   .company-left .company-text {
     margin-bottom: 100px;
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=yukinori.css.map */
