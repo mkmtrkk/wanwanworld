@@ -1,11 +1,5 @@
 @charset "UTF-8";
 @media screen and (max-width: 767px) {
-  body {
-    width: 1100px;
-  }
-}
-
-@media screen and (max-width: 767px) {
   .header {
     /* Q7 */
   }
