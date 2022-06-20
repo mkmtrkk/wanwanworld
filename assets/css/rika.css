@@ -26,8 +26,7 @@ h2 {
 
 @media screen and (max-width: 767px) {
   h2 {
-    margin: 0 0 20px;
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 
@@ -128,11 +127,18 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+  .about-container .about-box1,
+  .about-container .about-box2 {
+    margin: 25px 40px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .about-container .about-box1 .about-coment,
   .about-container .about-box2 .about-coment {
     background: repeating-linear-gradient(-45deg, #ebebeb, #ebebeb 10px, #ffffff 10px, #ffffff 25px);
     margin-top: 40px;
-    padding: 20px 20px 60px;
+    padding: 10px;
   }
 }
 
@@ -149,7 +155,7 @@ h2 {
 @media screen and (max-width: 767px) {
   .about-container .about-box1 .about-coment .about-title,
   .about-container .about-box2 .about-coment .about-title {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
@@ -167,7 +173,9 @@ h2 {
 @media screen and (max-width: 767px) {
   .about-container .about-box1 .about-coment .about-income,
   .about-container .about-box2 .about-coment .about-income {
-    font-size: 20px;
+    font-size: 13px;
+    padding: 0 0 5px 10px;
+    font-size: -20px;
   }
 }
 
