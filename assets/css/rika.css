@@ -252,6 +252,12 @@ h2 {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 767px) {
+  .sponser-containar .logo {
+    width: 52.5%;
+  }
+}
+
 .sponser-containar .kaeru {
   width: 435px;
   height: 420px;
@@ -306,7 +312,7 @@ h2 {
   .servce-container {
     margin: 0;
     margin-bottom: 30px;
-    width: 80%;
+    width: 66%;
   }
 }
 

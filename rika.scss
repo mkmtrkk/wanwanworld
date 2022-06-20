@@ -248,6 +248,10 @@ h2 {
     .logo {
         width: 90.5%;
         margin: 0 auto;
+
+        @include sp-screen{
+            width: 52.5%;
+        }
     }
 
     .kaeru {
@@ -305,7 +309,7 @@ h2 {
         @include sp-screen {
             margin: 0;
             margin-bottom: 30px;
-            width: 80%;
+            width: 66%;
         }
     }
 
@@ -523,7 +527,7 @@ h2 {
             }
         }
 
-        // letter-spacing: -0.1em;
+
     }
 }
 
