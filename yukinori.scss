@@ -17,7 +17,7 @@
     top: 0;
     width: 100%;
     z-index: 2;
-    overflow: hidden;
+    // overflow: hidden;
     /* Q7 */
 
     .hamburger {
@@ -77,9 +77,9 @@
 
   nav{
     @include sp-screen{
-      // overflow: hidden;
+      overflow: hidden;
       width: 100%;
-      height: 100%;
+      height: 555px;
       position: relative;
     }
   }
